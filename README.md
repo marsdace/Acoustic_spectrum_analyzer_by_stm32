@@ -1,4 +1,4 @@
-﻿# Acoustic_spectrum_analyzer_by_stm32
+# Acoustic_spectrum_analyzer_by_stm32
 Based on stm32 acoustic spectrum analyzer,使用stm32进行声波频谱分析
 ## 设备
 原子探索者开发板STM32F4<br>
@@ -13,4 +13,8 @@ Based on stm32 acoustic spectrum analyzer,使用stm32进行声波频谱分析
 2.采样频率：20.48khz<br>
 3.分辨率：10hz<br>
 ## 说明
+<<<<<<< HEAD
 实现方法即原理可参考References文件夹。<br>
+=======
+实现方法即原理可参考References文件夹。<br>
+>>>>>>> 179afac0992270a134f6821068c72c6ca5d0186b
