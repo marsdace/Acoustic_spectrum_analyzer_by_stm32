@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Q HP Inc., HP Inc., LIC=EPPLQ-NPFW5-4ANDE-5CCBP-VBYKG-DRE72
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v514\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\Marsdace\Documents\课题\硬件程序\实验47_2 DSP FFT测试\USER\DSP_FFT.uvprojx
+Project File Date:  09/15/2017
+
+<h2>Output:</h2>
+Rebuild target 'DSP_FFT'
+compiling main.c...
+main.c(94): warning:  #111-D: statement is unreachable
+                                        break;
+main.c(120): warning:  #223-D: function "arm_cmplx_mag_f32" declared implicitly
+                                         arm_cmplx_mag_f32(fft_inputbuf, fft_outputbuf, FFT_LENGTH);  
+main.c(45): warning:  #177-D: variable "t" was declared but never referenced
+        u8 key,t=0;
+main.c(46): warning:  #177-D: variable "adcx" was declared but never referenced
+        u16 adcx,a;
+main.c(46): warning:  #177-D: variable "a" was declared but never referenced
+        u16 adcx,a;
+main.c(47): warning:  #177-D: variable "temp" was declared but never referenced
+        float temp;
+main.c(48): warning:  #177-D: variable "time" was declared but never referenced
+        float time; 
+main.c(49): warning:  #177-D: variable "buf" was declared but never referenced
+        u8 buf[50]; 
+main.c(50): warning:  #177-D: variable "ii" was declared but never referenced
+        u16 i,ii,iiflag; 
+main.c(50): warning:  #177-D: variable "iiflag" was declared but never referenced
+        u16 i,ii,iiflag; 
+main.c(351): warning:  #177-D: variable "NVIC_InitStructure" was declared but never referenced
+          NVIC_InitTypeDef NVIC_InitStructure;
+main.c: 11 warnings, 0 errors
+compiling stm32f4xx_it.c...
+compiling system_stm32f4xx.c...
+compiling led.c...
+compiling lcd.c...
+compiling key.c...
+compiling timer.c...
+compiling adc.c...
+..\HARDWARE\ADC\adc.c(25): warning:  #177-D: variable "DMA_InitStructure" was declared but never referenced
+        DMA_InitTypeDef DMA_InitStructure;
+..\HARDWARE\ADC\adc.c: 1 warning, 0 errors
+compiling dma.c...
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+assembling startup_stm32f40_41xxx.s...
+compiling misc.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_fsmc.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_syscfg.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_adc.c...
+compiling stm32f4xx_dma.c...
+linking...
+Program Size: Code=38918 RO-data=41390 RW-data=68 ZI-data=61372  
+FromELF: creating hex file...
+"..\OBJ\DSP_FFT.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Marsdace\Documents\课题\硬件程序\实验47_2 DSP FFT测试\USER\RTE
+  C:\Keil_v514\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
