@@ -1,4 +1,4 @@
-#Acoustic_spectrum_analyzer_by_stm32
+# Acoustic_spectrum_analyzer_by_stm32
 Based on stm32 acoustic spectrum analyzer,使用stm32进行声波频谱分析
 ## 设备
 原子探索者开发板STM32F4<br>
